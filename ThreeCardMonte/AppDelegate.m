@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "RightViewController.h"
+#import "WrongViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +20,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+//    ViewController *viewController = [ViewController new];
+//    RightViewController *rtViewController = [RightViewController new];
+//    WrongViewController *wrngViewController = [WrongViewController new];
+    
+    
+    
     return YES;
 }
 

@@ -14,6 +14,8 @@
 		D26D56CC1B08455500782E34 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D26D56CB1B08455500782E34 /* Images.xcassets */; };
 		D26D56CF1B08455500782E34 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D26D56CD1B08455500782E34 /* LaunchScreen.xib */; };
 		D26D56DB1B08455600782E34 /* ThreeCardMonteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D26D56DA1B08455600782E34 /* ThreeCardMonteTests.m */; };
+		D26D56EC1B08610F00782E34 /* WrongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D26D56EB1B08610F00782E34 /* WrongViewController.m */; };
+		D26D56EF1B08614500782E34 /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D26D56EE1B08614500782E34 /* RightViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		D26D56D41B08455600782E34 /* ThreeCardMonteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreeCardMonteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D26D56D91B08455600782E34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D26D56DA1B08455600782E34 /* ThreeCardMonteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeCardMonteTests.m; sourceTree = "<group>"; };
+		D26D56EA1B08610F00782E34 /* WrongViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WrongViewController.h; path = ../WrongViewController.h; sourceTree = "<group>"; };
+		D26D56EB1B08610F00782E34 /* WrongViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WrongViewController.m; path = ../WrongViewController.m; sourceTree = "<group>"; };
+		D26D56ED1B08614500782E34 /* RightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RightViewController.h; path = ../RightViewController.h; sourceTree = "<group>"; };
+		D26D56EE1B08614500782E34 /* RightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RightViewController.m; path = ../RightViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +89,12 @@
 			children = (
 				D26D56C21B08455500782E34 /* AppDelegate.h */,
 				D26D56C31B08455500782E34 /* AppDelegate.m */,
-				D26D56C51B08455500782E34 /* ViewController.h */,
+				D26D56EA1B08610F00782E34 /* WrongViewController.h */,
+				D26D56EB1B08610F00782E34 /* WrongViewController.m */,
+				D26D56ED1B08614500782E34 /* RightViewController.h */,
+				D26D56EE1B08614500782E34 /* RightViewController.m */,
 				D26D56C61B08455500782E34 /* ViewController.m */,
+				D26D56C51B08455500782E34 /* ViewController.h */,
 				D26D56C81B08455500782E34 /* Main.storyboard */,
 				D26D56CB1B08455500782E34 /* Images.xcassets */,
 				D26D56CD1B08455500782E34 /* LaunchScreen.xib */,
@@ -219,8 +229,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D26D56EF1B08614500782E34 /* RightViewController.m in Sources */,
 				D26D56C71B08455500782E34 /* ViewController.m in Sources */,
 				D26D56C41B08455500782E34 /* AppDelegate.m in Sources */,
+				D26D56EC1B08610F00782E34 /* WrongViewController.m in Sources */,
 				D26D56C11B08455500782E34 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
